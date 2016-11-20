@@ -13,9 +13,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 20;
-var cats_rows = 3;
+var cats = 5;
+var cats_rows = 2;
 var total_row = Math.ceil(cats/cats_rows);
 var plus_cats = (total_row*cats_rows)-cats;
-console.log(total_row);
-console.log(plus_cats);
+console.log('File: '+total_row);
+console.log('Gatti mancanti: '+plus_cats);
